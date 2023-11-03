@@ -187,6 +187,7 @@ function isSolved() {
     alert("Congratulations!\nYou Solved It!\n\nIncrease The Difficulty Level And Try Again.");
     return true;
 }
+let wrong=0;
 
 function check(currentInput) {
     if (currentInput.value == "") return;
@@ -212,6 +213,7 @@ function check(currentInput) {
             if (arr[i][j] == currentInput) {
                 if (canPlace(arr, i, j, currentInput.value) === false) {
                     currentInput.style.color = "red";
+                    wrong=wrong+1;                   
                     flag = true;
                     break;
                 }
@@ -223,4 +225,7 @@ function check(currentInput) {
         currentInput.style.color = "#3333ff";
         setTimeout(isSolved, 10);
     }
+    const wrongANS = String(wrong).padStart(2, '0');
+    const wrongElement = document.getElementById("wrong");
+    wrongElement.textContent = wrongANS;
 }

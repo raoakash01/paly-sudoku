@@ -131,7 +131,18 @@ button:active {
     font-size: large;
     box-shadow: 5px 2px 5px rgb(39, 4, 4);
 }
-
+.wrong-ans{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(235, 11, 11);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    color:white;
+    margin: 10%;
+    font-size: large;
+    box-shadow: 5px 2px 5px rgb(39, 4, 4);
+}
 .b1 input,
 .b3 input,
 .b5 input,
