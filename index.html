@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Play - Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1>Sudoku</h1>
+
+    <h2>
+        <details>
+            <summary>How to play :-</summary>
+            <li>Fill in the numbers 1-9 exactly once in every row, column, and 3x3 region.</li>
+        </details>
+    </h2>
+    <div class="container">
+        <div class="grid">
+
+            <div class="g1">
+                <div class="box b1">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+
+                <div class="box b2">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+
+                <div class="box b3">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+            </div>
+
+            <div>
+
+                <div class="box b4">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+
+                <div class="box b5">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+
+                <div class="box b6">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+            </div>
+
+            <div>
+
+                <div class="box b7">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+
+                <div class="box b8">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+
+                <div class="box b9">
+
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+                    <input id="i1" type="text" maxlength="2" oninput="check(this);" />
+
+                </div>
+            </div>
+
+        </div>
+       
+        <div class="buttons">
+            <div class="timer">
+                    <span id="minutes">00</span>:<span id="seconds">00</span>
+                </div>
+            <input id="difficulty" type="range" value="22" min="22" max="58">
+            <button id="btnGenerate">Generate New Puzzle</button>
+            <button id="btnSolve" onclick="clearArray();solveSudoku();">View Solution</button>
+            <button id="btnClear" onclick="clearArray();">Clear Board</button>
+        </div>
+    </div>
+</body>
+
+</html>
